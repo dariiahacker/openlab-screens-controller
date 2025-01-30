@@ -4,8 +4,8 @@ import sys
 # openlab controller
 openlab = tuke_openlab.Controller(tuke_openlab.production_env())
 
-# prank screens
-screens = ["https://pranx.com/hacker/", "https://pranx.com/matrix-code-rain/", "https://pranx.com/fake-virus/"]
+# screens url
+screens = ["http://ukazky.kpi.fei.tuke.sk:8080/ascii/ola", "https://pranx.com/matrix-code-rain/", "http://ukazky.kpi.fei.tuke.sk:8080/matrix.html"]
 
 
 def reset_to_default():
